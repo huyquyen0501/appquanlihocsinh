@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tran.qlhocphi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.tran.qlhocphi.DangNhapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tran.qlhocphi.DangKyActivity" />
+        <activity android:name="com.example.tran.qlhocphi.MainActivity" />
+        <activity android:name="com.example.tran.qlhocphi.DSDongHocPhiActivity" />
+        <activity android:name="com.example.tran.qlhocphi.QLHocPhiActivity" />
+        <activity android:name="com.example.tran.qlhocphi.QLHocSinhActivity" />
+        <activity android:name="com.example.tran.qlhocphi.QLThuHocPhiActivity" />
+        <activity android:name="com.example.tran.qlhocphi.SuaHocPhiActivity" />
+        <activity android:name="com.example.tran.qlhocphi.SuaHocSinhActivity" />
+        <activity android:name="com.example.tran.qlhocphi.SuaSoThuPhiActivity" />
+        <activity android:name="com.example.tran.qlhocphi.ThemHocSinhActivity"></activity>
+    </application>
+
+</manifest>

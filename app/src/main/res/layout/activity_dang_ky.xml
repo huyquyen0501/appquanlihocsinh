@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tran.qlhocphi.DangKyActivity"
+    android:background="#424AB3"
+    >
+
+    <TextView
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/edtDKTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Tên đăng nhập"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/icon_user"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edtDKMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Mật khẩu"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/icon_password"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDKDangKy"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3B863B"
+            android:text="Đăng ký"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnDKThoat"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CE7939"
+            android:text="Thoat"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

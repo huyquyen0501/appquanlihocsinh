@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
+    tools:context="com.example.tran.qlhocphi.Adapter.HocSinhAdapter">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHSAMaHS"
+        android:textSize="18dp"
+        android:text="Mã học sinh: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHSAHoTen"
+        android:textSize="18dp"
+        android:text="Họ và tên: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHSANgaySinh"
+        android:textSize="18dp"
+        android:text="Ngày sinh: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHSAGioiTinh"
+        android:textSize="18dp"
+        android:text="Giới tính: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHSADiaChi"
+        android:textSize="18dp"
+        android:text="Địa chỉ: "/>
+</LinearLayout>

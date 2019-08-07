@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tran.qlhocphi.SuaSoThuPhiActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã học sinh"/>
+    <EditText
+        android:id="@+id/edtSQLTHPMaHS"
+        android:hint="Mã học sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã học phí"/>
+    <EditText
+        android:id="@+id/edtSQLTHPMaHP"
+        android:hint="Mã học phí"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày lập"/>
+    <EditText
+        android:id="@+id/edtSQLTHPNgayLap"
+        android:hint="Ngày lập dd/MM/yyyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSQLTHPSua"
+        android:text="Sửa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSQLTHPQuayLai"
+        android:text="Quay Lại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
